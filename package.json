@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "dependencies": {
+    "markdown-it-mathjax3": "latest",
+    "vitepress": "latest",
+    "vue": "latest"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["@types/react", "react", "react-dom"]
+    }
+  }
+}
