@@ -12,7 +12,9 @@
   },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": ["@types/react", "react", "react-dom"]
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
     }
   }
 }
